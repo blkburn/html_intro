@@ -231,14 +231,18 @@ p {
 
 #contact {
     display: flex;
-
+    justify-content: space-between;
     .contact-form {
         flex: 1;
 
         .form-group {
-            margin: 0.75rem;
+            // margin: 0.75rem;
         }
 
+        form {
+            display: flex;
+            flex-direction: column;
+        }
         label {
             display: block;
         }
@@ -248,9 +252,11 @@ p {
             // height: 150px;
         }
         .btn {
-            padding: 0.5rem;
+            // align-self: stretch;
+            // padding: 0.5rem;
             width: 100%;
-            // margin: 2rem;
+            margin: 1rem 0;
+            // position: relative;
 
         }
     }

@@ -164,18 +164,20 @@ p {
     margin: auto; }
 
 #contact {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   #contact .contact-form {
     flex: 1; }
-    #contact .contact-form .form-group {
-      margin: 0.75rem; }
+    #contact .contact-form form {
+      display: flex;
+      flex-direction: column; }
     #contact .contact-form label {
       display: block; }
     #contact .contact-form textarea, #contact .contact-form input {
       width: 100%;
       padding: 0.5rem; }
     #contact .contact-form .btn {
-      padding: 0.5rem;
-      width: 100%; }
+      width: 100%;
+      margin: 1rem 0; }
   #contact .map {
     flex: 2; }
