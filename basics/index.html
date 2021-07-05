@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a description that is shown in googel results">
+    <meta name="keywords" content="8-10 words">
+    <title>Test file</title>
+</head>
+<!-- comment -->
+
+<body>
+    <div id="main-heading">
+        <h1>Main Page</h1>
+    </div>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis quia libero?
+        <hr>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus odio distinctio explicabo temporibus amet, <em> omnis officia recusandae, similique consequuntur molestiae aliquam repellendus ab natus </em>aperiam ad corporis dolorum suscipit exercitationem.
+    </p> 
+    <a href="http://www.google.com">Google</a>
+    <br>
+    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+    <br>
+    <img src="/images/splash.jpg" alt="pic" width="600">
+    <img src="https://source.unsplash.com/600x600/?nature,water" alt="unsplash pics">
+    <br>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <p>
+        <ol type="I">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+    </p>
+    <p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Frist</th>
+                    <th>Last</th>
+                    <th>email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>King</th>
+                    <th>Bob</th>
+                    <th>bob@bob.com</th>
+                </tr>
+                <tr>
+                    <th>Don</th>
+                    <th>Don</th>
+                    <th>don@don.com</th>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <form action="process.php">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">email</label><br>
+                    <input type="email" id="email" name="email" placeholder="enter email">
+                </div>
+                <div>
+                    <label for="text">Text</label><br>
+                    <textarea name="text" id="text" cols="30" rows="10" ></textarea>
+                </div>
+                <div>
+                    <label for="gender">Gender</label><br>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female" selected>Female</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="age">Age</label><br>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <label for="membership">Memebership</label><br>
+                    <input type="radio" name="membership" id="simple" value="simple"> Simple
+                    <input type="radio" name="membership" id="full" value="full" checked> Full
+                </div>
+                <div>
+                    <label for="membership">Memebership</label><br>
+                    <input type="checkbox" name="membership" id="simple" value="simple"> Simple
+                    <input type="checkbox" name="membership" id="full" value="full" checked> Full
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </p>
+</body>
+</html>
