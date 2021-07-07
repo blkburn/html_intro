@@ -1,0 +1,313 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.4;
+  font-weight: 300; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+p {
+  margin: 0.75rem 0; }
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden; }
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1; }
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1; }
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem; }
+
+.py-1 {
+  padding: 1.5rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.p-1 {
+  padding: 1.5rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.p-3 {
+  padding: 3rem; }
+
+.text-primary {
+  color: #93cb52; }
+
+.text-center {
+  text-align: center; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
+.bg-primary {
+  background: #93cb52;
+  color: #fff; }
+
+.btn {
+  text-transform: uppercase;
+  display: inline-block;
+  color: #fff;
+  padding: 0.8rem 3rem;
+  border: #fff 1px solid;
+  border-radius: 30px;
+  margin-top: 1.5rem; }
+
+.btn:hover {
+  color: #7ab436;
+  border: #7ab436 1px solid; }
+
+.btn-dark {
+  background: #333;
+  color: #fff; }
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none; }
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px; }
+
+.banner {
+  display: flex;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  align-items: center;
+  text-align: left; }
+  .banner .image {
+    flex-grow: 1; }
+    .banner .image img {
+      height: 100vh;
+      max-width: 50vw;
+      object-fit: cover;
+      vertical-align: bottom; }
+
+.content {
+  margin: 5rem; }
+  .content h1 {
+    font-size: 4rem;
+    font-weight: 300; }
+  .content h2 {
+    font-size: 2.5rem;
+    font-weight: 300; }
+  .content .major,
+  .content p {
+    font-size: 1.5rem; }
+  .content p a {
+    color: #7ab436; }
+    .content p a:hover {
+      color: #93cb52; }
+
+.spotlight {
+  display: flex;
+  background: #333;
+  color: #fff; }
+  .spotlight .image {
+    flex-grow: 1; }
+    .spotlight .image img {
+      height: 45vh;
+      max-width: 35vw;
+      object-fit: cover;
+      vertical-align: bottom; }
+
+.orient-right {
+  flex-direction: row-reverse; }
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .items section {
+    max-width: 300px;
+    border-bottom: #ddd 1px solid;
+    margin-bottom: 2rem; }
+  .items h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center; }
+  .items p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 1.6rem;
+    text-align: center; }
+
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+  text-align: center; }
+
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  text-transform: none !important;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400; }
+
+.icon > .label {
+  display: none; }
+
+.icon:before {
+  line-height: inherit; }
+
+.icon.solid:before {
+  font-weight: 900; }
+
+.icon.brands:before {
+  font-family: 'Font Awesome 5 Brands'; }
+
+.icon.style2:before {
+  border-radius: 2.75em;
+  display: inline-block;
+  height: 2.75em;
+  line-height: 2.75em;
+  width: 2.75em; }
+
+.icon.major {
+  display: block;
+  margin: 0 0 1rem 0; }
+
+.icon.major:before {
+  font-size: 1.25rem; }
+
+a.icon.style2:before {
+  -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out; }
+
+.icon.style2:before {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2); }
+
+a.icon.style2:hover:before {
+  box-shadow: inset 0 0 0 1px #47D3E5;
+  color: #47D3E5; }
+
+a.icon.style2:active:before {
+  background-color: rgba(71, 211, 229, 0.1);
+  box-shadow: inset 0 0 0 1px #47D3E5;
+  color: #47D3E5; }
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #333;
+  justify-content: space-between;
+  padding: 1rem;
+  color: #fff;
+  z-index: 1; }
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none; }
+    #navbar ul a {
+      color: #fff;
+      padding: 0.75rem;
+      margin: 0 0.25rem; }
+      #navbar ul a:hover {
+        background: #93cb52;
+        border-radius: 5px; }
+
+#showcase {
+  background: #000 url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 100vh; }
+  #showcase .showcase-content {
+    color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%; }
+    #showcase .showcase-content .extra-div {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding: 0 2rem; }
+
+#what .items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; }
+  #what .items .item {
+    flex: 1;
+    padding: 1rem; }
+    #what .items .item i {
+      background: #93cb52;
+      padding: 1rem;
+      border-radius: 50%;
+      margin-bottom: 1rem; }
+
+#who {
+  display: flex; }
+  #who .who-img {
+    flex: 1;
+    background: url("../img/people.jpg") no-repeat center center/cover; }
+  #who .who-text {
+    flex: 1; }
+
+#clients .items {
+  display: flex; }
+  #clients .items img {
+    display: block;
+    width: 60%;
+    margin: auto; }
+
+#contact {
+  display: flex;
+  justify-content: space-between; }
+  #contact .contact-form {
+    flex: 1; }
+    #contact .contact-form form {
+      display: flex;
+      flex-direction: column; }
+    #contact .contact-form label {
+      display: block; }
+    #contact .contact-form textarea, #contact .contact-form input {
+      width: 100%;
+      padding: 0.5rem; }
+    #contact .contact-form .btn {
+      width: 100%;
+      margin: 1rem 0; }
+  #contact .map {
+    flex: 2; }
