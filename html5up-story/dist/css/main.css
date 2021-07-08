@@ -85,9 +85,21 @@ p {
   color: #7ab436;
   border: #7ab436 1px solid; }
 
-.btn-dark {
-  background: #333;
-  color: #fff; }
+.btn-light {
+  text-transform: uppercase;
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  padding: 0.8rem 2rem;
+  border: #000 1px solid;
+  border-radius: 30px;
+  margin-top: 1.5rem; }
+
+.btn-light:hover,
+input:hover,
+textarea:hover {
+  color: #7ab436;
+  border: #7ab436 1px solid; }
 
 .list {
   margin: 0.5rem 0;
@@ -160,6 +172,43 @@ p {
     line-height: 2rem;
     margin: 1.6rem;
     text-align: center; }
+
+#touch .medium {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #touch .medium h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem; }
+  #touch .medium form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 50vw; }
+    #touch .medium form div {
+      width: 100%;
+      margin-bottom: 0.5rem; }
+    #touch .medium form div:nth-child(3) {
+      width: 100%;
+      margin-bottom: 0.5rem; }
+    #touch .medium form .field {
+      width: 48%; }
+      #touch .medium form .field label {
+        display: block;
+        text-align: center;
+        margin-bottom: 0.75rem;
+        margin-top: 0.75rem; }
+      #touch .medium form .field input {
+        width: 100%;
+        padding: 0.5rem; }
+      #touch .medium form .field textarea {
+        width: 100%; }
+    #touch .medium form .actions {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 .icon {
   text-decoration: none;
