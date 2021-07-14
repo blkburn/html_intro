@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax EXample</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .pimage1 {
+            background: url('./images/images1.jpg') no-repeat center center/cover;
+            height: 100vh;
+            width: 100%;
+            opacity: 0.7;
+            background-attachment: fixed;
+        }
+        .pimage2 {
+            background: url('./images/images2.jpg') no-repeat center center/cover;
+            height: 40vh;
+            width: 100%;
+            opacity: 0.7;
+            background-attachment: fixed;
+        }
+        .pimage3 {
+            background: url('./images/images3.jpg') no-repeat center center/cover;
+            height: 40vh;
+            width: 100%;
+            opacity: 0.7;
+            background-attachment: fixed;
+        }
+        .pimage4 {
+            background: url('./images/images4.jpg') no-repeat center center/cover;
+            height: 100vh;
+            width: 100%;
+            opacity: 0.7;
+            background-attachment: fixed;
+        }
+        .ptext {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.5rem;
+            font-weight: 700;
+            /* background-color: #333; */
+            color: #fff;
+            padding: 2rem;
+            letter-spacing: 0.5rem;
+        }
+        .border {
+            padding: 1.5rem;
+            background-color: #111;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 3rem 8rem;
+            line-height: 1.8;
+            background-color: #f4f4f4;
+            color: #666;
+        }
+        .container-dark {
+            background-color: #333;
+            color: #f4f4f4;
+        }
+        .container h2 {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="pimage1">
+        <div class="ptext"><div class="border">PARALLAX WEBSITE</div></div>
+    </div>
+    <section class="container">
+        <h2>Section One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi cum iste reiciendis sed at optio accusamus fugiat soluta aut, tempore nam mollitia magnam voluptatum esse modi obcaecati quos qui. Aperiam dolor impedit quis doloribus fugit repellendus, accusantium at perspiciatis earum deleniti pariatur doloremque tempore officiis alias mollitia magni. Quo, facilis assumenda! Illo perferendis esse, exercitationem ipsam, amet adipisci, laudantium placeat iusto quod magni hic deserunt voluptates odio asperiores voluptatem magnam. Voluptate numquam ullam similique voluptatum ad quis, magni corporis aliquid vero fugiat odio deleniti doloremque dignissimos dolore cupiditate. Eius rerum culpa quibusdam veniam. Architecto iure aperiam in quas eligendi?</p>
+    </section>
+    <div class="pimage2">
+        <div class="ptext"><div class="border">IMAGE TWO</div></div>
+    </div>
+    <section class="container container-dark">
+        <h2>Section Two</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi cum iste reiciendis sed at optio accusamus fugiat soluta aut, tempore nam mollitia magnam voluptatum esse modi obcaecati quos qui. Aperiam dolor impedit quis doloribus fugit repellendus, accusantium at perspiciatis earum deleniti pariatur doloremque tempore officiis alias mollitia magni. Quo, facilis assumenda! Illo perferendis esse, exercitationem ipsam, amet adipisci, laudantium placeat iusto quod magni hic deserunt voluptates odio asperiores voluptatem magnam. Voluptate numquam ullam similique voluptatum ad quis, magni corporis aliquid vero fugiat odio deleniti doloremque dignissimos dolore cupiditate. Eius rerum culpa quibusdam veniam. Architecto iure aperiam in quas eligendi?</p>
+    </section>
+    <div class="pimage3">
+        <div class="ptext"><div class="border">IMAGE THREE</div></div>
+    </div>
+    <section class="container">
+        <h2>Section Three</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi cum iste reiciendis sed at optio accusamus fugiat soluta aut, tempore nam mollitia magnam voluptatum esse modi obcaecati quos qui. Aperiam dolor impedit quis doloribus fugit repellendus, accusantium at perspiciatis earum deleniti pariatur doloremque tempore officiis alias mollitia magni. Quo, facilis assumenda! Illo perferendis esse, exercitationem ipsam, amet adipisci, laudantium placeat iusto quod magni hic deserunt voluptates odio asperiores voluptatem magnam. Voluptate numquam ullam similique voluptatum ad quis, magni corporis aliquid vero fugiat odio deleniti doloremque dignissimos dolore cupiditate. Eius rerum culpa quibusdam veniam. Architecto iure aperiam in quas eligendi?</p>
+    </section>
+    <div class="pimage4">
+        <div class="ptext"><div class="border">IMAGE FOUR</div></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  background: var(--light-color); }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+img {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0.75rem;
+  line-height: 1.3rem; }
+
+.category {
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  display: inline-block; }
+
+.category-sports {
+  background: #f99500; }
+
+.category-ent {
+  background: #a66bbe; }
+
+.category-tech {
+  background: #009cff; }
+
+.btn {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  background: #333;
+  padding: 0.5rem 1.5rem; }
+  .btn:hover {
+    opacity: 0.8; }
+  .btn-block {
+    display: block;
+    width: 100%;
+    text-align: center; }
+
+.btn-light {
+  background: #f3f3f3; }
+
+.btn-primary {
+  background: #c72727; }
+
+.btn-secondary {
+  background: #f99500; }
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden; }
+
+#main-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+  #main-nav .logo {
+    width: 180px; }
+  #main-nav .container {
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    align-items: center; }
+  #main-nav .social {
+    justify-self: center; }
+    #main-nav .social a {
+      color: #777;
+      padding: 0 0.25rem; }
+      #main-nav .social a:hover {
+        color: #333; }
+  #main-nav ul {
+    justify-self: end;
+    display: flex; }
+    #main-nav ul a {
+      padding: 0.75rem;
+      font-weight: 600; }
+      #main-nav ul a.current {
+        background: #c72727;
+        color: #fff; }
+      #main-nav ul a:hover {
+        background: #f3f3f3;
+        color: #333; }
+
+#showcase {
+  color: #fff;
+  background: #333;
+  padding: 2rem;
+  position: relative; }
+  #showcase::before {
+    content: '';
+    background: url("../img/featured.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4; }
+  #showcase .showcase-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 50vh; }
+    #showcase .showcase-container .showcase-content {
+      z-index: 1; }
+      #showcase .showcase-container .showcase-content p {
+        margin-bottom: 1rem; }
