@@ -1,0 +1,25 @@
+#navbar {
+  ul {
+  display: none;
+
+  }
+  .logo {
+  visibility: visible;
+
+  }
+}
+
+#drawer-header {
+  visibility: visible;
+}
+
+@media(max-width: 768px) {
+#what {
+  .main-title {
+    flex-direction: column;
+  }
+  .items {
+    grid-template-columns: 1fr;
+  }
+}
+}
